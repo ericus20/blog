@@ -1,0 +1,21 @@
+{
+  "author": "Eric Opoku <eric.opoku20@yahoo.com>",
+  "description": "A publicly interactive centralized blog",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "pre-commit": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=16.14.0",
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22.17"
+  },
+  "license": "MIT",
+  "name": "blog",
+  "repository": "git@github.com:ericus20/blog.git",
+  "scripts": {
+    "prepare": "pre-commit install"
+  },
+  "version": "1.0.0"
+}
